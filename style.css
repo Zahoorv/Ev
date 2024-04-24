@@ -1554,7 +1554,7 @@ footer {
 }
 @media (max-width:400px) {
     .logo {
-        margin-right: 60vh;
+        margin-right: 45vh;
     }
     .content h3 {
         font-size: 14px;
@@ -1578,7 +1578,7 @@ footer {
         width: 100%  
         }
     .logo {
-        margin-right: 55vh;
+        margin-right: 40vh;
         }
     .nav2{
         width: 40%;
@@ -1669,7 +1669,7 @@ footer {
     gap:7px;
 }
 .logo {
-    margin-right: 50vh;
+    margin-right: 40vh;
     }
 }
 @media (max-width:320px) {
@@ -1682,7 +1682,7 @@ footer {
     }
 
     .logo {
-        margin-right: 44vh;
+        margin-right: 36vh;
     }
     .content h3 {
         font-size: 13px;
