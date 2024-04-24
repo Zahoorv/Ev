@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EvExploreHub</title>
+    <link rel="icon" href="ev.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,700&family=Play:wght@400;700&family=Sora:wght@100..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- <iframe src=""></iframe> -->
+</head>
+
+<body>
+    <input type="checkbox" id="input1" hidden>
+    <label for="input1" class="label1">
+        <i class="fa fa-bars"></i></label>
+
+
+    <div class="nav2">
+
+        <ul>
+            <li><a href="#home"">HOME</a></li>
+            <li><a href=" #features">FEATURES</a></li>
+            <li><a href="#electric">ELECTRIC CAR</a></li>
+            <li><a href="#BRAND-IDENTITY">GALLERY</a></li>
+            <li><a href="#footer">ABOUT AS</a></li>
+        </ul>
+        <a href='/login' id="login" target='_blank'>LOGIN</a>
+
+
+    </div>
+
+    <div class="Section_top" id="home">
+        <header>
+            <div class="navbar">
+                <div class="logo"><img src="Img/ev.png" alt="">
+
+                </div>
+                <ul class="links">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#features">FEATURES</a></li>
+                    <li><a href="#electric">ELECTRIC CAR</a></li>
+                    <li><a href="#BRAND-IDENTITY">GALLERY</a></li>
+                    <li><a href="#footer">ABOUT AS</a></li>
+                </ul>
+                <a href="#" class="login_btn">LOGIN</a>
+
+
+
+            </div>
+        </header>
+
+        <div class="content1">
+            <marquee>Currently, there are 38 electric cars on sale in India. Of these, the MG Comet EV is the cheapest
+                EV
+                while the BMW i7 is the most expensive electric car in India. Upcoming electric cars in India include MG
+                4
+                EV,Mercedes-Benz EQA and Hyundai Kona Electric 2024 among others.Locate a charging station in your city.
+            </marquee>
+        </div>
+
+    </div>
+
+
+
+    <div class="content">
+
+        <h3>🍃Green Energy Initatives</h3>
+        <!-- <a href="#"> </a> -->
+        <button>⚡Book a test drive</button>
+    </div>
+
+
+    <div class="chatbox">
+        <!-- <i class="fa-regular fa-message"></i> -->
+        <!-- <i class="fa-brands fa-stack-exchange"></i> -->
+
+        <img id="chat" src="Img/car/chat.png" alt="chat with us">
+        <!-- <p>CHAT</p> -->
+    </div>
+    <div class="container1">
+        <div class="poster1">
+            <img id="img1" src="Img/car/ev-charge.webp" alt="car-charge">
+        </div>
+
+
+        <div class="item2" id="features">
+            <h3>Why the Automotive Future is Electric</h3>
+            <p>The concerns regarding the environment and limited natural resources, a sustainable and clean future is
+                deeply linked to the inevitable electrification of our cars. It also comes with a lot of benefits, as
+                listed here:</p>
+
+
+
+            <!-- <div class="photo1">
+                <img id="photo1" src="Img/lowcost.JPG" alt=""> -->
+            <!-- </div>             -->
+            <div class="accbox">
+                <ul class="accordion">
+                    <li>
+                        <input type="radio" name="accordion" id="first" checked>
+                        <label for="first">Lower Running Cost</label>
+                        <div class="content_accord">
+                            <p>High fuel prices and an extensive list of components makes a combustion engine model more
+                                expensive to run compared to an EV which is easier to maintain and electricity is
+                                cheaper.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="Section">
+                    <ul class="accordion">
+                        <li>
+                            <input type="radio" name="accordion" id="Second">
+                            <label for="Second">Performance And Driving Experience</label>
+                            <div class="content_accord">
+                                <p>An electric motor has the benefit of immediate performance and no gears, offering a
+                                    responsive and convenient driving experience in all sizes.</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <ul class="accordion">
+                        <li>
+                            <input type="radio" name="accordion" id="Third" checked>
+                            <label for="Third">Technology</label>
+                            <div class="content_accord">
+                                <p>All EVs are inherently better suited to offer more technology than existing
+                                    combustion
+                                    engine models. This applies to features around safety, infotainment, comfort and a
+                                    connected experience.</p>
+                            </div>
+                        </li>
+                    </ul>
+
+
+                    <ul class="accordion">
+                        <li>
+                            <input type="radio" name="accordion" id="Fourth" checked>
+                            <label for="Fourth">Eco-Friendly</label>
+                            <div class="content_accord">
+                                <p>While some may argue the ‘zero emission’ tag applied to EVs, they are undeniably
+                                    cleaner
+                                    than combustion engines when it comes to tailpipe emissions and therefore more
+                                    eco-friendly.</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <ul class="accordion">
+                        <li>
+                            <input type="radio" name="accordion" id="Fifth">
+                            <label for="Fifth">Convenient Charging</label>
+                            <div class="content_accord">
+                                <p>The fact that you can simply plug your EV in at your home or office and have it
+                                    recharged
+                                    for the day is definitely more convenient than having to drive to a fuel station
+                                    every
+                                    time.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrap" id="electric">
+        <div class="title1">
+            <h2>Electric Cars</h2>
+            <p>Popular</p>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="card">
+                    <img src="Img/car/photo1.webp" alt="MG Comet">
+                    <div class="intro">
+                        <h1>MG Comet</h1>
+                        <p>₹.6.99 - 9.14 Lakh* <br><Span>Get On-Road Price</Span></p>
+                        <h3>17.3 kWh • 230 KM • 41.42 BHP</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>4.2/5</span>
+                        </div>
+                        <a href="">BookNow</a>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="Img/car/photo2.webp" alt="Tata Tiago">
+                    <div class="intro">
+                        <h1>Tata Tiago</h1>
+                        <p>₹.7.99 - 11.89 Lakh* <br><Span>Get On-Road Price</Span></p>
+                        <h3>19.2 kWh • 250 KM • 60.34 BHP</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>4.2/5</span>
+                        </div>
+                        <a href="">BookNow</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Img/car/photo3.webp" alt="Tata Punch ">
+                    <div class="intro">
+                        <h1>Tata Punch </h1>
+                        <p>₹.10.99 - 15.49 Lakh* <br><Span>Get On-Road Price</Span></p>
+                        <h3>25 kWh • 315 KM • 80.46 BHP</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>4.2/5</span>
+                        </div>
+                        <a href="">BookNow</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Img/car/photo4.webp" alt="MG Comet">
+                    <div class="intro">
+                        <h1>Tata Nexon</h1>
+                        <p>₹14.49 - 19.49 Lakh* <br><Span>Get On-Road Price</Span></p>
+                        <h3>30 kWh • 325 KM • 127.39 BHP</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>4.2/5</span>
+                        </div>
+                        <a href="">BookNow</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Img/car/photo5.webp" alt="Tata Tiago">
+                    <div class="intro">
+                        <h1>Mahindra XUV400</h1>
+                        <p>₹15.49 - 19.39 Lakh* <br><Span>Get On-Road Price</Span></p>
+                        <h3>34.5 kWh • 375 KM • 149.55 BHP</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>4.2/5</span>
+                        </div>
+                        <a href="">BookNow</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Img/car/photo6.webp" alt="Tata Punch ">
+                    <div class="intro">
+                        <h1>MG ZS</h1>
+                        <p>₹18.98 - 25.08 Lakh* <br><Span>Get On-Road Price</Span></p>
+                        <h3>50 kWh • 461 KM • 174.33 BHP</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>4.2/5</span>
+                        </div>
+                        <a href="">BookNow</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Img/car/photo7.webp" alt="Tata Punch ">
+                    <div class="intro">
+                        <h1>Hyundai Kona</h1>
+                        <p>₹23.84 - 24.03 Lakh* <br><Span>Get On-Road Price</Span></p>
+                        <h3>39.2 kWh • 452 KM • 134.1 BHP</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>4.2/5</span>
+                        </div>
+                        <a href="">BookNow</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="title1">
+            <!-- <h2>Electric Cars</h2> -->
+            <p>Upcoming</p>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="card">
+                    <img src="Img/car/photo11.webp" alt="MG Comet">
+                    <div class="intro">
+                        <h1>Hyundai Kona 2024</h1>
+                        <p>₹25 Lakh* <br><Span>*Estimated Price in</Span></p>
+                        <h3>38 kWh • 261 KM •201 HP</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>4.2/5</span>
+                        </div>
+                        <a href="">TestRide</a>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="Img/car/photo12.webp" alt="Tata Tiago">
+                    <div class="intro">
+                        <h1>MG 4</h1>
+                        <p>₹ 30 Lakh* <br><Span>*Estimated Price in</Span></p>
+                        <h3>51 kWh • 239 KM • 204 HP</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>4.2/5</span>
+                        </div>
+                        <a href="">TestRide</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Img/car/photo13.webp" alt="Tata Punch ">
+                    <div class="intro">
+                        <h1>Mercedes-Benz EQA</h1>
+                        <p>₹ 60 Lakh* <br><Span>*Estimated Price in</Span></p>
+                        <h3>66 kWh • 426 KM • 250 HP</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>4.2/5</span>
+                        </div>
+                        <a href="">TestRide</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Img/car/photo14.webp" alt="MG Comet">
+                    <div class="intro">
+                        <h1>Tata Curvv EV</h1>
+                        <p>₹ 20 Lakh* <br><Span>*Estimated Price in</Span></p>
+                        <h3>40 kWh • 400 KM • 140 HP</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>4.2/5</span>
+                        </div>
+                        <a href="">TestRide</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Img/car/photo15.webp" alt="Tata Tiago">
+                    <div class="intro">
+                        <h1>Mini Cooper SE 2024</h1>
+                        <p>₹ 55 Lakh* <br><Span>*Estimated Price in</Span></p>
+                        <h3>50 kWh • 114 KM • 181 HP</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>4.0/5</span>
+                        </div>
+                        <a href="">TestRide</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Img/car/photo16.webp" alt="Tata Punch ">
+                    <div class="intro">
+                        <h1>Volvo EX90</h1>
+                        <p>₹ 1.50 Cr* <br><Span>*Estimated Price in</Span></p>
+                        <h3>70 kWh • 300 KM • 496 HP</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>4.5/5</span>
+                        </div>
+                        <a href="">TestRide</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Img/car/photo17.webp" alt="Tata Punch ">
+                    <div class="intro">
+                        <h1>Porsche Taycan 2024</h1>
+                        <p>₹ 1 .65 Cr* <br><Span>*Estimated Price in</Span></p>
+                        <h3>105 kWh • 587 KM • 190 HP</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>4.0/5</span>
+                        </div>
+                        <a href="">TestRide</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="BRAND-IDENTITY">
+        <h2>Popular EV Brands</h2>
+
+
+        <div class="slider">
+            <div class="slide-track">
+
+                <div class="slide">
+                    <img src="Img/car/audi.jpg">
+
+
+                </div>
+                <div class="slide">
+                    <img src="Img/car/bmw.jpg">
+                </div>
+                <div class="slide">
+                    <img src="Img/car/citroen.jpg">
+                </div>
+                <div class="slide">
+                    <img src="Img/car/hyundai.jpg">
+                </div>
+                <div class="slide">
+                    <img src="Img/car/jaguar.jpg">
+                </div>
+                <div class="slide">
+                    <img src="Img/car/lexus.png">
+                </div>
+                <div class="slide">
+                    <img src="Img/car/mahindra.jpg">
+                </div>
+                <div class="slide">
+                    <img src="Img/car/mercedes-benz.jpg">
+                </div>
+                <div class="slide">
+                    <img src="Img/car/maruti-suzuki.jpg">
+                </div>
+                <div class="slide">
+                    <img src="Img/car/mg.jpg">
+                </div>
+                <div class="slide">
+                    <img src="Img/car/rolls-royce.jpg">
+                </div>
+                <div class="slide">
+                    <img src="Img/car/tata.jpg">
+                </div>
+                <div class="slide">
+                    <img src="Img/car/toyota.jpg">
+                </div>
+                <div class="slide">
+                    <img src="Img/car/volvo.jpg">
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section class="gallery-section">
+        <div class="poster2">
+            <h5>Gallery</h5>
+        </div>
+        <div class="gallery1">
+            <div class="cars"><img src="Img/car/car1.webp"></div>
+            <div class="cars"><img src="Img/car/car2.webp"></div>
+            <div class="cars"><img src="Img/car/car3.webp"></div>
+            <div class="cars"><img src="Img/car/car4.webp"></div>
+            <div class="cars"><img src="Img/car/car5.webp"></div>
+            <div class="cars"><img src="Img/car/car6.webp"></div>
+            <div class="cars"><img src="Img/car/car7.webp"></div>
+            <div class="cars"><img src="Img/car/car8.webp"></div>
+            <div class="cars"><img src="Img/car/car9.webp"></div>
+            <div class="cars"><img src="Img/car/car10.webp"></div>
+            <div class="cars"><img src="Img/car/car11.webp"></div>
+            <div class="cars"><img src="Img/car/car12.webp"></div>
+            <div class="cars"><img src="Img/car/car13.webp"></div>
+            <div class="cars"><img src="Img/car/car14.webp"></div>
+            <div class="cars"><img src="Img/car/car15.webp"></div>
+        </div>
+    </section>
+
+    <div class="maintainance-section">
+        <div class="maintainance-sec1">
+            <img id="poster3" src="Img/car/charge.jpg" />
+        </div>
+        <div class="footer-sec1">
+            <h2>How to Maintain Your EV’s Battery</h2>
+            <div class="foot-col1">
+                <h3>Avoid Frequent Fast Charges</h3>
+                <p>Frequent fast-charging may have a negative impact on a battery's health over time, as sending high
+                    currents causes a lot of strain.</p>
+
+            </div>
+
+            <div class="foot-col1">
+                <h3>Control Level of Charge</h3>
+                <p>Having the battery percentage dip close to zero, or charging it to 100 per cent, are both bad for an
+                    EV. These extremes can reduce the battery’s capacity to store electricity and even drain faster over
+                    time.</p>
+            </div>
+            <div class="foot-col1">
+                <h3>Avoid Exposure to Hot Temperatures</h3>
+                <p>Do not leave your EV parked under the hot sun for long durations. Doing so can expose your electric
+                    vehicle to extreme hot temperatures and can potentially damage the battery.</p>
+                <div class="foot-col1">
+                    <h3>Check Battery Coolant</h3>
+                    <p>To ensure that the battery is always working within the preset safe operating temperature, it is
+                        necessary to check the battery coolant level at regular intervals.</p>
+                    <div class="foot-col1">
+                        <h3>Parking for Longer Periods</h3>
+                        <p>When parked for an extended period of time (more than a month), maintain a charging range of
+                            40 to 60% to safeguard the battery's health.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="Charging-station">
+        <h3>Electric Charging Stations</h3>
+
+        <div class="map">
+            <iframe class="googlemap"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d995662.1657727691!2d78.22003729883565!3d12.888077498648093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad130006228807%3A0xd24c8c0761efbc0b!2sCharge%20Zone%20Charging%20Station!5e0!3m2!1sen!2sin!4v1712347928514!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" width="800" height="600" style="border:0;"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="450"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="Img/ev.png" alt="EV Hub Logo">
+
+            </div>
+            <div class="footer-info">
+                <h4>About EV Hub</h4>
+                <p>EV Hub is your ultimate destination for all things electric vehicles. We're dedicated to providing
+                    the latest news, reviews, and insights into the world of electric transportation.</p>
+                <p>Whether you're a seasoned EV enthusiast or just starting your journey, EV Hub is here to empower you
+                    with knowledge and resources to embrace the electric future.</p>
+            </div>
+            <div class="company-section">
+                <h4>Click To Buy</h4>
+                <div class="selection-hd">
+                    <a href="#">
+                        <div class="company-links">Request a Test Drive</div>
+                    </a>
+                    <a href="#">
+                        <div class="company-links">Special Offers</div>
+                    </a>
+                    <a href="#">
+                        <div class="company-links">Prices</div>
+                    </a>
+                    <a href="#">
+                        <div class="company-links">Find a Dealer</div>
+                    </a>
+                    <a href="#">
+                        <div class="company-links">Online Booking</div>
+                    </a>
+                    <a href="#">
+                        <div class="company-links">Online Finance</div>
+                    </a>
+                </div></a>
+            </div>
+            <div class="company-section">
+                <h4>COMPANY</h4>
+                <div class="selection-hd">
+                    <a href="#">
+                        <div class="company-links">Home</div>
+                    </a>
+                    <a href="#">
+                        <div class="company-links">About Us</div>
+                    </a>
+                    <a href="#">
+                        <div class="company-links">Careers</div>
+                    </a>
+                    <a href="#">
+                        <div class="company-links">Advertise With Us</div>
+                    </a>
+                    <a href="#">
+                        <div class="company-links">Contact Us</div>
+                    </a>
+                    <a href="#">
+                        <div class="company-links">FAQ</div>
+                    </a>
+                </div></a>
+            </div>
+            <div class="company-section legal">
+                <h4>LEGAL</h4>
+                <div class="selection-hd">
+                    <a href="#">
+                        <div class="company-links">Content Complaints</div>
+                    </a>
+                    <a href="#">
+                        <div class="company-links">Compliance Report</div>
+                    </a>
+                    <a href="#">
+                        <div class="company-links">Privacy Policy</div>
+                    </a>
+                    <a href="#">
+                        <div class="company-links">Terms of Services</div>
+                    </a>
+                    <a href="#">
+                        <div class="company-links">Invertors</div>
+                    </a>
+                    <a href="#">
+                        <div class="company-links">Download Apps</div>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+            <div class="end-of-page">
+
+                <div class="footer-social">
+                    <h3>Connect:</h3>
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <div class="footer-bottom">
+                    <p> © 2024 EV Hub. All rights reserved.</p><span>Developed by: Zahoor ahmed</span>
+                    
+                </div>
+            </div>
+    
+    </footer>
+
+
+
+
+</body>
+
+</html>
